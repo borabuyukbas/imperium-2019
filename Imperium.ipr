@@ -82,22 +82,22 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
   <component name="libraryTable">
-    <library name="Gradle: com.ctre.frcbeta.phoenix:api-java:5.11.0">
+    <library name="Gradle: com.ctre.frcbeta.phoenix:api-java:5.12.0">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ctre.frcbeta.phoenix/api-java/5.11.0/acf7c09c2ec36f0d021383e74a0de08159a06413/api-java-5.11.0.jar!/" />
+        <root url="jar://C:/Users/Public/frc2019/maven/com/ctre/phoenix/api-java/5.12.0/api-java-5.12.0.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ctre.frcbeta.phoenix/api-java/5.11.0/ae009deef4b4f936ade2bd67f5a8bcee20ce6afd/api-java-5.11.0-sources.jar!/" />
+        <root url="jar://C:/Users/Public/frc2019/maven/com/ctre/phoenix/api-java/5.12.0/api-java-5.12.0-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Gradle: com.ctre.frcbeta.phoenix:wpiapi-java:5.11.0">
+    <library name="Gradle: com.ctre.frcbeta.phoenix:wpiapi-java:5.12.0">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ctre.frcbeta.phoenix/wpiapi-java/5.11.0/254e85b18e73b0bd70292a27afa58eaacc397975/wpiapi-java-5.11.0.jar!/" />
+        <root url="jar://C:/Users/Public/frc2019/maven/com/ctre/phoenix/wpiapi-java/5.12.0/wpiapi-java-5.12.0.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ctre.frcbeta.phoenix/wpiapi-java/5.11.0/17ec586f7dc1c85509d3c93e232962ac6bf5bad4/wpiapi-java-5.11.0-sources.jar!/" />
+        <root url="jar://C:/Users/Public/frc2019/maven/com/ctre/phoenix/wpiapi-java/5.12.0/wpiapi-java-5.12.0-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: edu.wpi.first.cameraserver:cameraserver-java:2019.1.1">
