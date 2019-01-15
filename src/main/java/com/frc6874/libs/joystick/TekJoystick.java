@@ -1,5 +1,7 @@
 package com.frc6874.libs.joystick;
 
+import com.frc6874.robot2019.Constants;
+
 public class TekJoystick implements Joystick
 {
   private static TekJoystick mInstance = null;
@@ -14,7 +16,7 @@ public class TekJoystick implements Joystick
   private edu.wpi.first.wpilibj.Joystick mJoystick;
   private TekJoystick()
   {
-    mJoystick = new edu.wpi.first.wpilibj.Joystick(0);
+    mJoystick = new edu.wpi.first.wpilibj.Joystick(Constants.kJoystickPort);
   }
   
   public double getPov()

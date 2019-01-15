@@ -1,6 +1,7 @@
 package  com.frc6874.libs;
 
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 public class Sendables
 {

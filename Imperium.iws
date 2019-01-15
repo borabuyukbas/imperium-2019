@@ -1,118 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c678fd98-c735-4f9d-81a0-d1e6ae65a39c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.0/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.0/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.0/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imperium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Imperium.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imperium.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/Imperium.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imperium.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Imperium.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/AdvancedI2C.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/AdvancedI2C.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/AutoBuilder$CKAutoStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/AutoBuilder$CKAutoStep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/AutoBuilder$CheesyDriveHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/AutoBuilder$CheesyDriveHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/AutoBuilder$DriveSignal.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/AutoBuilder$DriveSignal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/AutoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/AutoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/ChangingAverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/ChangingAverage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/CrashTrackingRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/CrashTrackingRunnable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/FieldState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/FieldState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/GameMessageChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/GameMessageChecker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/Sendables$baslangicPozisyonu.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/Sendables$baslangicPozisyonu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/Sendables$hedef.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/Sendables$hedef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/Sendables.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/Sendables.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/ThreadRateControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/ThreadRateControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/Action.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/CrashTrackingRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/CrashTrackingRunnable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/ParallelAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/ParallelAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/RunOnceAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/RunOnceAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/SeriesAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/SeriesAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/WaitAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/WaitAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/joystick/Joystick.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/joystick/Joystick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/joystick/TekJoystick.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/joystick/TekJoystick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/loops/Loop.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/loops/Loop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/loops/Looper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/loops/Looper$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/loops/Looper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/loops/Looper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/AdaptivePurePursuitController$Arc.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/AdaptivePurePursuitController$Arc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/AdaptivePurePursuitController$Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/AdaptivePurePursuitController$Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/AdaptivePurePursuitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/AdaptivePurePursuitController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/CircularBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/CircularBuffer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/DelayedBoolean.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/DelayedBoolean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/DriveSignal.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/DriveSignal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/HeadingProfileFollower.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/HeadingProfileFollower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Interpolable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Interpolable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/InterpolatingDouble.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/InterpolatingDouble.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/InterpolatingLong.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/InterpolatingLong.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/InterpolatingTreeMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/InterpolatingTreeMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/InverseInterpolable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/InverseInterpolable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Kinematics$DriveVelocity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Kinematics$DriveVelocity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Kinematics.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Kinematics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/LatchedBoolean.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/LatchedBoolean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Lookahead.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Lookahead.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionProfile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionProfileConstraints.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionProfileConstraints.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionProfileGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionProfileGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionProfileGoal$CompletionBehavior.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionProfileGoal$CompletionBehavior.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionProfileGoal.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionProfileGoal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionSegment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionSegment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MovingAverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MovingAverage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Path$TargetPointReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Path$TargetPointReport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Path.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Path.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathBuilder$Arc.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathBuilder$Arc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathBuilder$Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathBuilder$Line.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathBuilder$Waypoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathBuilder$Waypoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathContainer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathFollower$DebugOutput.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathFollower$DebugOutput.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathFollower$Parameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathFollower$Parameters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathFollower.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathFollower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathFollowerRobotState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathFollowerRobotState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathSegment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathSegment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PolynomialRegression.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PolynomialRegression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/ProfileFollower.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/ProfileFollower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/RigidTransform2d.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/RigidTransform2d.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Rotation2d.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Rotation2d.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/SetpointGenerator$Setpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/SetpointGenerator$Setpoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/SetpointGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/SetpointGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/ShooterAimingParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/ShooterAimingParameters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/SynchronousPIDF.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/SynchronousPIDF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/TargetInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/TargetInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/TimeDelayedBoolean.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/TimeDelayedBoolean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Translation2d.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Translation2d.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Twist2d.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Twist2d.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/reporters/ConsoleReporter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/reporters/ConsoleReporter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/reporters/ConsoleReporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/reporters/ConsoleReporter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/reporters/Message$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/reporters/Message$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/reporters/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/reporters/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/reporters/MessageLevel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/reporters/MessageLevel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/Robot$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/Robot$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/Robot.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/Robot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/DrivePathAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/DrivePathAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/ResetPoseFromPathAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/ResetPoseFromPathAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/AutoConsts.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/AutoConsts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/AutoModeBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/AutoModeBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/AutoModeExecuter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/AutoModeExecuter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/AutoModeExecuter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/AutoModeExecuter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/modes/CrossTheLineMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/modes/CrossTheLineMode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/modes/DoNothingMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/modes/DoNothingMode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/modes/TestMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/modes/TestMode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/paths/CenterCrossTheLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/paths/CenterCrossTheLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/paths/TestPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/paths/TestPath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/Drive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/Drive$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/Drive$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/Drive$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/Drive.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/Drive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/States$DriveState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/States$DriveState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/States.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/States.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/Imperium.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Imperium.jar" afterDir="false" />
+    <list default="true" id="c678fd98-c735-4f9d-81a0-d1e6ae65a39c" name="Default Changelist" comment="Added Compressor">
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/Sendables$baslangicPozisyonu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/Sendables$hedef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/Sendables.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/DrivePathAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/modes/CrossTheLineMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/modes/TestMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/Drive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/Drive$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/Drive.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/frc6874/libs/Sendables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/frc6874/libs/Sendables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/frc6874/libs/joystick/TekJoystick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/frc6874/libs/joystick/TekJoystick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Drive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Drive.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -177,11 +82,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Robot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+            <state relative-caret-position="69">
+              <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first.wpilibj/wpilibj-java/2019.2.1/599923037b305f46559b710b67dde971ea94fdb3/wpilibj-java-2019.2.1-sources.jar!/edu/wpi/first/wpilibj/drive/DifferentialDrive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="182" column="24" selection-start-line="182" selection-start-column="24" selection-end-line="182" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -189,17 +103,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/libs/Sendables.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="141">
+              <caret line="61" column="65" selection-start-line="61" selection-start-column="65" selection-end-line="61" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Drive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+            <state relative-caret-position="-69">
+              <caret line="109" column="9" lean-forward="true" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/libs/joystick/TekJoystick.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -217,9 +155,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Robot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/frc6874/libs/Sendables.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/frc6874/libs/Sendables.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/frc6874/libs/joystick/TekJoystick.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Drive.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Robot.java" />
       </list>
     </option>
   </component>
@@ -254,6 +195,70 @@
             <path>
               <item name="Imperium" type="b2602c69:ProjectViewProjectNode" />
               <item name="Imperium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Imperium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Imperium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Imperium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Imperium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Imperium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Imperium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Imperium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Imperium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="frc6874" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Imperium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Imperium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="frc6874" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Imperium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Imperium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="frc6874" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="joystick" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Imperium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Imperium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="frc6874" type="462c0819:PsiDirectoryNode" />
+              <item name="robot2019" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Imperium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Imperium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="frc6874" type="462c0819:PsiDirectoryNode" />
+              <item name="robot2019" type="462c0819:PsiDirectoryNode" />
+              <item name="subsystems" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -291,7 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Imperium Update">
+  <component name="RunManager" selected="Gradle.Imperium Build">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -440,7 +445,7 @@
       <workItem from="1547486075910" duration="215000" />
       <workItem from="1547486349434" duration="12000" />
       <workItem from="1547569763686" duration="180000" />
-      <workItem from="1547569969166" duration="284000" />
+      <workItem from="1547569969166" duration="1532000" />
     </task>
     <task id="LOCAL-00001" summary="Added vendor dependencies">
       <created>1546771239278</created>
@@ -463,11 +468,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546784328805</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated GradleRIO to 2019.2.1">
+      <created>1547570283418</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547570283418</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4527000" />
+    <option name="totallyTimeSpent" value="5775000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -480,8 +492,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30786687" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30786687" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -491,7 +504,7 @@
       <window_info id="Build Variants" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3277311" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3277311" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -522,17 +535,11 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <MESSAGE value="Added vendor dependencies" />
     <MESSAGE value="Updated CTRE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated CTRE" />
+    <MESSAGE value="Updated GradleRIO to 2019.2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated GradleRIO to 2019.2.1" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Drive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendordeps/Phoenix-latest.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -546,24 +553,79 @@
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Robot.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        <state relative-caret-position="46">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Users/Public/frc2019/maven/com/ctre/phoenix/api-java/5.12.0/api-java-5.12.0-sources.jar!/com/ctre/phoenix/motorcontrol/can/TalonSRX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/libs/Sendables.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="141">
+          <caret line="61" column="65" selection-start-line="61" selection-start-column="65" selection-end-line="61" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/libs/joystick/Joystick.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/libs/joystick/TekJoystick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Drive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="109" column="9" lean-forward="true" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first.wpilibj/wpilibj-java/2019.2.1/599923037b305f46559b710b67dde971ea94fdb3/wpilibj-java-2019.2.1-sources.jar!/edu/wpi/first/wpilibj/drive/RobotDriveBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first.wpilibj/wpilibj-java/2019.2.1/599923037b305f46559b710b67dde971ea94fdb3/wpilibj-java-2019.2.1-sources.jar!/edu/wpi/first/wpilibj/drive/DifferentialDrive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="182" column="24" selection-start-line="182" selection-start-column="24" selection-end-line="182" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
         </state>
       </provider>
     </entry>

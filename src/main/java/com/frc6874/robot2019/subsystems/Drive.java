@@ -8,6 +8,8 @@ import com.frc6874.libs.loops.Loop;
 import com.frc6874.libs.loops.Looper;
 import com.frc6874.libs.pathfollower.*;
 import com.frc6874.libs.reporters.ConsoleReporter;
+import com.frc6874.robot2019.Constants;
+import edu.wpi.first.wpilibj.Compressor;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 /**
@@ -17,6 +19,9 @@ public class Drive {
     private static Drive mInstance;
     private TalonSRX m_leftdrivemain;
     private TalonSRX m_rightdrivemain;
+
+    private Compressor m_compressor;
+
     private Path mCurrentPath = null;
 
     private PathFollower mPathFollower;
@@ -33,8 +38,8 @@ public class Drive {
     }
 
     private Drive() {
-        m_leftdrivemain = new TalonSRX(1);
-        m_rightdrivemain = new TalonSRX(3);
+        m_leftdrivemain = new TalonSRX(Constants.kLeftTalonPortMaster);
+        m_rightdrivemain = new TalonSRX(Constants.kRightTalonPortMaster);
 
         m_leftdrivemain.setSensorPhase(true);
         m_rightdrivemain.setSensorPhase(true);
@@ -74,6 +79,9 @@ public class Drive {
 
         m_leftdrivemain.setInverted(false);
         m_rightdrivemain.setInverted(true);
+
+        m_compressor = new Compressor(Constants.kCompressorPort);
+
     }
 
     public void drive(double powLeft, double powRight) {
@@ -97,10 +105,10 @@ public class Drive {
 
     double Deadband(double value)
     {
-        if (value >= 0.15D) {
+        if (value >= 0.08D) {
             return value;
         }
-        if (value <= -0.15D) {
+        if (value <= -0.08D) {
             return value;
         }
         return 0.0D;
@@ -116,11 +124,14 @@ public class Drive {
 
         public void onStart(double timestamp)
         {
-            synchronized (Drive.this) {}
+            synchronized (Drive.this) {
+                m_compressor.setClosedLoopControl(true);
+            }
         }
 
         public void onLoop(double timestamp, boolean isAuto)
         {
+            SmartDashboard.putNumber("Compressor Current", m_compressor.getCompressorCurrent());
             synchronized (Drive.this) {
                 switch (mState) {
                     case TELEOP:
@@ -140,7 +151,9 @@ public class Drive {
         }
         public void onStop(double timestamp)
         {
-            synchronized (Drive.this) {}
+            synchronized (Drive.this) {
+                m_compressor.setClosedLoopControl(false);
+            }
         }
     };
 
