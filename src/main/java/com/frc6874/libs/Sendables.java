@@ -30,26 +30,26 @@ public class Sendables
   public Sendables()
   {
     mHedefSecim = new SendableChooser();
-    mHedefSecim.addDefault("Cizgiyi gec", hedef.CIZGIYI_GEC);
-    mHedefSecim.addObject("404:NotFound", hedef.YOK);
-    mHedefSecim.addObject("MOD1", hedef.MOD1);
-    mHedefSecim.addObject("MOD2", hedef.MOD2);
-    mHedefSecim.addObject("MOD3", hedef.MOD3);
+    mHedefSecim.setDefaultOption("Cizgiyi gec", hedef.CIZGIYI_GEC);
+    mHedefSecim.addOption("404:NotFound", hedef.YOK);
+    mHedefSecim.addOption("MOD1", hedef.MOD1);
+    mHedefSecim.addOption("MOD2", hedef.MOD2);
+    mHedefSecim.addOption("MOD3", hedef.MOD3);
     edu.wpi.first.wpilibj.smartdashboard.SmartDashboard.putData("Hedef", mHedefSecim);
-    
+
     mPozisyonSecim = new SendableChooser();
-    mPozisyonSecim.addDefault("Belirsiz", baslangicPozisyonu.BELIRSIZ);
-    mPozisyonSecim.addObject("Sol", baslangicPozisyonu.SOL);
-    mPozisyonSecim.addObject("Orta", baslangicPozisyonu.ORTA);
-    mPozisyonSecim.addObject("Sag", baslangicPozisyonu.SAG);
+    mPozisyonSecim.setDefaultOption("Belirsiz", baslangicPozisyonu.BELIRSIZ);
+    mPozisyonSecim.addOption("Sol", baslangicPozisyonu.SOL);
+    mPozisyonSecim.addOption("Orta", baslangicPozisyonu.ORTA);
+    mPozisyonSecim.addOption("Sag", baslangicPozisyonu.SAG);
     edu.wpi.first.wpilibj.smartdashboard.SmartDashboard.putData("Pozisyon", mPozisyonSecim);
     
     com.frc6874.libs.reporters.ConsoleReporter.report("Sendables OK", com.frc6874.libs.reporters.MessageLevel.INFO);
   }
   
   public void secimGuncelle() {
-    hedef Hedef = (hedef)mHedefSecim.getSelected();
-    baslangicPozisyonu Pozisyon = (baslangicPozisyonu)mPozisyonSecim.getSelected();
+    hedef Hedef = mHedefSecim.getSelected();
+    baslangicPozisyonu Pozisyon = mPozisyonSecim.getSelected();
     if ((mHedef != Hedef) || (mPozisyon != Pozisyon)) {
       com.frc6874.libs.reporters.ConsoleReporter.report("Otonom secenegi degistirildi.", com.frc6874.libs.reporters.MessageLevel.INFO);
     }

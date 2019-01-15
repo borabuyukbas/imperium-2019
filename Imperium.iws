@@ -4,11 +4,115 @@
     <list default="true" id="c678fd98-c735-4f9d-81a0-d1e6ae65a39c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.0/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.0/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.0/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imperium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Imperium.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imperium.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/Imperium.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Imperium.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Imperium.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendordeps/Phoenix.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/AdvancedI2C.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/AdvancedI2C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/AutoBuilder$CKAutoStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/AutoBuilder$CKAutoStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/AutoBuilder$CheesyDriveHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/AutoBuilder$CheesyDriveHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/AutoBuilder$DriveSignal.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/AutoBuilder$DriveSignal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/AutoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/AutoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/ChangingAverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/ChangingAverage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/CrashTrackingRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/CrashTrackingRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/FieldState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/FieldState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/GameMessageChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/GameMessageChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/Sendables$baslangicPozisyonu.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/Sendables$baslangicPozisyonu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/Sendables$hedef.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/Sendables$hedef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/Sendables.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/Sendables.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/ThreadRateControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/ThreadRateControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/Action.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/CrashTrackingRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/CrashTrackingRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/ParallelAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/ParallelAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/RunOnceAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/RunOnceAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/SeriesAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/SeriesAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/WaitAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/action/WaitAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/joystick/Joystick.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/joystick/Joystick.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/joystick/TekJoystick.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/joystick/TekJoystick.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/loops/Loop.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/loops/Loop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/loops/Looper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/loops/Looper$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/loops/Looper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/loops/Looper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/AdaptivePurePursuitController$Arc.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/AdaptivePurePursuitController$Arc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/AdaptivePurePursuitController$Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/AdaptivePurePursuitController$Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/AdaptivePurePursuitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/AdaptivePurePursuitController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/CircularBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/CircularBuffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/DelayedBoolean.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/DelayedBoolean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/DriveSignal.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/DriveSignal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/HeadingProfileFollower.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/HeadingProfileFollower.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Interpolable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Interpolable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/InterpolatingDouble.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/InterpolatingDouble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/InterpolatingLong.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/InterpolatingLong.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/InterpolatingTreeMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/InterpolatingTreeMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/InverseInterpolable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/InverseInterpolable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Kinematics$DriveVelocity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Kinematics$DriveVelocity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Kinematics.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Kinematics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/LatchedBoolean.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/LatchedBoolean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Lookahead.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Lookahead.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionProfile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionProfileConstraints.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionProfileConstraints.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionProfileGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionProfileGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionProfileGoal$CompletionBehavior.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionProfileGoal$CompletionBehavior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionProfileGoal.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionProfileGoal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionSegment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionSegment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MotionUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MovingAverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/MovingAverage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Path$TargetPointReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Path$TargetPointReport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Path.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Path.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathBuilder$Arc.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathBuilder$Arc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathBuilder$Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathBuilder$Line.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathBuilder$Waypoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathBuilder$Waypoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathFollower$DebugOutput.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathFollower$DebugOutput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathFollower$Parameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathFollower$Parameters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathFollower.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathFollower.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathFollowerRobotState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathFollowerRobotState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathSegment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PathSegment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PolynomialRegression.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/PolynomialRegression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/ProfileFollower.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/ProfileFollower.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/RigidTransform2d.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/RigidTransform2d.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Rotation2d.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Rotation2d.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/SetpointGenerator$Setpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/SetpointGenerator$Setpoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/SetpointGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/SetpointGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/ShooterAimingParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/ShooterAimingParameters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/SynchronousPIDF.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/SynchronousPIDF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/TargetInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/TargetInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/TimeDelayedBoolean.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/TimeDelayedBoolean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Translation2d.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Translation2d.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Twist2d.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Twist2d.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/pathfollower/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/reporters/ConsoleReporter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/reporters/ConsoleReporter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/reporters/ConsoleReporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/reporters/ConsoleReporter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/reporters/Message$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/reporters/Message$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/reporters/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/reporters/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/reporters/MessageLevel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/reporters/MessageLevel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/Robot$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/Robot$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/Robot.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/Robot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/DrivePathAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/DrivePathAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/ResetPoseFromPathAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/ResetPoseFromPathAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/AutoConsts.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/AutoConsts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/AutoModeBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/AutoModeBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/AutoModeExecuter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/AutoModeExecuter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/AutoModeExecuter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/AutoModeExecuter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/modes/CrossTheLineMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/modes/CrossTheLineMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/modes/DoNothingMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/modes/DoNothingMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/modes/TestMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/modes/TestMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/paths/CenterCrossTheLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/paths/CenterCrossTheLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/paths/TestPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/actions/autonomous/paths/TestPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/Drive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/Drive$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/Drive$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/Drive$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/Drive.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/Drive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/States$DriveState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/States$DriveState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/States.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/robot2019/subsystems/States.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/Imperium.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Imperium.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/frc6874/libs/Sendables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/frc6874/libs/Sendables.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -71,48 +175,31 @@
       </state>
     </system>
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-274383223">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="2" />
-          <entry key="json" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="2" />
-          <entry key="JSON" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="txt" value="54" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="54" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Robot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            <state relative-caret-position="272">
+              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/libs/Sendables.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -127,554 +214,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="myGradleHomes">
-      <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\Bora\.gradle\permwrapper\dists\gradle-5.0-all\4mxuau4c77thx8zlvtz4xiez7\gradle-5.0" />
-      </map>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Robot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/frc6874/libs/Sendables.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+      </list>
     </option>
-    <option name="myGradleVersions">
-      <map>
-        <entry key="$PROJECT_DIR$" value="5.0" />
-      </map>
-    </option>
-    <option name="availableProjects">
-      <map>
-        <entry>
-          <key>
-            <ExternalProjectPojo>
-              <option name="name" value="Imperium" />
-              <option name="path" value="$PROJECT_DIR$" />
-            </ExternalProjectPojo>
-          </key>
-          <value>
-            <list>
-              <ExternalProjectPojo>
-                <option name="name" value="Imperium" />
-                <option name="path" value="$PROJECT_DIR$" />
-              </ExternalProjectPojo>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="availableTasks">
-      <map>
-        <entry key="$PROJECT_DIR$">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'Imperium'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="writeDebugInfo" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Gradle wrapper files." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="wrapper" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Simulate External Task for Java/Kotlin/JVM. Exports a JSON file for use by editors / tools" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="simulateExternalJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deploy all artifacts on all targets" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="deploy" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'Imperium'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="deployFrcJavaRoborio" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'Imperium'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Install the tool SmartDashboard" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="SmartDashboardInstall" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Run a console displaying output from the RoboRIO (roborio)" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="riologRoborio" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Install the tool RobotBuilder" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="RobotBuilderInstall" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Initializes a new Gradle build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="init" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Determine the address(es) of target Roborio" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="discoverRoborio" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Run a console displaying output from the default RoboRIO (roborio)" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="riolog" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Run the tool RobotBuilder" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="RobotBuilder" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'Imperium'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Run the tool PathWeaver" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="PathWeaver" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Print all versions of the wpi block" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="wpi" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Download all dependencies that may be used by this project" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="downloadAll" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Install the tool OutlineViewer" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="OutlineViewerInstall" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="deployJreRoborio" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="deployFrcStaticFileDeployRoborio" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'Imperium'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Clean Clion IDE Files" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="cleanClion" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'Imperium'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Run the tool OutlineViewer" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="OutlineViewer" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'Imperium'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="deployNativeLibsRoborio" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="deployNativeZipRoborio" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="deployRoborioCommandsRoborio" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Run the tool ShuffleBoard" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="ShuffleBoard" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generate Editor Configuration for Build and Debugging" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="editorConfig" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generate Clion CMakeLists.txt files." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="clion" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Explain all Maven Repos present on this project" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="explainRepositories" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Install the tool ShuffleBoard" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="ShuffleBoardInstall" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Launch simulation for Java/Kotlin/JVM" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="simulateJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Install the tool PathWeaver" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="PathWeaverInstall" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'Imperium'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Install All Tools" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="InstallAllTools" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Run the tool SmartDashboard" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="SmartDashboard" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Extract Test JNI Native Libraries (nativeDesktopLib, nativeDesktopZip)" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="extractTestJNI" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'Imperium'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="modificationStamps">
-      <map>
-        <entry key="$PROJECT_DIR$" value="4633962776633" />
-        <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="665319742" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="2000871635" />
-      </map>
-    </option>
-    <option name="projectBuildClasspath">
-      <map>
-        <entry key="$PROJECT_DIR$">
-          <value>
-            <ExternalProjectBuildClasspathPojo>
-              <option name="modulesBuildClasspath">
-                <map>
-                  <entry key="$PROJECT_DIR$">
-                    <value>
-                      <ExternalModuleBuildClasspathPojo>
-                        <option name="entries">
-                          <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first/GradleRIO/2019.1.1/12153aa7cec4c6e97f9dc667e6f39cfce7352a76/GradleRIO-2019.1.1-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a6dc5db8a12928e583bd3f23e72d3ab611ecd58f/gson-2.2.4-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first/gradle-cpp-vscode/0.7.1/1ed4cbbef8930aa4c7c14ae38eac4b3424a50df0/gradle-cpp-vscode-0.7.1-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first/ToolchainPlugin/2019.1.1/5b04cb36bf5d53419e15915212e40a1eba1d694f/ToolchainPlugin-2019.1.1-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/jaci.gradle/EmbeddedTools/2018.12.18/208b6868937296611ec03543a81225e30cdc069d/EmbeddedTools-2018.12.18-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.undercouch/gradle-download-task/3.1.2/a770cf45a3df7a09f2ae9f9d4d781338ca316189/gradle-download-task-3.1.2-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch/0.1.53/791359d94d6edcace686a56d0727ee093a2f7c33/jsch-0.1.53-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.2/b9f9e3e5255b6ddc3bf21be05428c7a60d00e042/httpclient-4.5.2-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/c5c19e3e6af6b452def290cde12a3ee4c35c893c/httpcore-4.4.4-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/3f15fff45d57656685abfee9e8302bf14580044c/commons-codec-1.9-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first/GradleRIO/2019.1.1/5088b1fc264412d0cec71d7aecbe9abd26adfbc/GradleRIO-2019.1.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first/gradle-cpp-vscode/0.7.1/b2c37e23be5a22f143261084b702eb0dfdefe04c/gradle-cpp-vscode-0.7.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first/ToolchainPlugin/2019.1.1/ff3ed945fca9806081c275ecc6a7d501f600535a/ToolchainPlugin-2019.1.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/jaci.gradle/EmbeddedTools/2018.12.18/83f6f4314ed8af649229e3893655551c5bbec206/EmbeddedTools-2018.12.18.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.undercouch/gradle-download-task/3.1.2/dbb5911739f1a18228847ad955c700a368db1ba4/gradle-download-task-3.1.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch/0.1.53/658b682d5c817b27ae795637dfec047c63d29935/jsch-0.1.53.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.2/733db77aa8d9b2d68015189df76ab06304406e50/httpclient-4.5.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/b31526a230871fbe285fbcbe2813f9c0839ae9b0/httpcore-4.4.4.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar" />
-                          </list>
-                        </option>
-                        <option name="path" value="$PROJECT_DIR$" />
-                      </ExternalModuleBuildClasspathPojo>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-              <option name="name" value="Imperium" />
-              <option name="projectBuildClasspath">
-                <list>
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/announce" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/antlr" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/base-services" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/base-services-groovy" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/build-cache" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/build-cache-http" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/build-comparison" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/build-init" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/build-option" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/cli" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/code-quality" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/composite-builds" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/core" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/core-api" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/dependency-management" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/diagnostics" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/docs" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/ear" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/files" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/ide" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/ide-native" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/ide-play" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/installation-beacon" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/internal-android-performance-testing" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/internal-integ-testing" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/internal-performance-testing" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/internal-testing" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/ivy" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/jacoco" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/javascript" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/jvm-services" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/language-groovy" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/language-java" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/language-jvm" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/language-native" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/language-scala" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/launcher" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/logging" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/maven" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/messaging" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/model-core" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/model-groovy" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/native" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/osgi" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/persistent-cache" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/platform-base" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/platform-jvm" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/platform-native" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/platform-play" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/plugin-development" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/plugin-use" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/plugins" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/process-services" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/publish" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/reporting" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/resources" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/resources-gcs" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/resources-http" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/resources-s3" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/resources-sftp" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/scala" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/signing" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/snapshots" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/test-kit" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/testing-base" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/testing-junit-platform" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/testing-jvm" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/testing-native" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/tooling-api" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/tooling-api-builders" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/tooling-native" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/version-control" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/workers" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/src/wrapper" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/ant-1.9.13.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/ant-launcher-1.9.13.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-api-metadata-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-base-services-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-base-services-groovy-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-build-cache-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-build-option-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-cli-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-core-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-core-api-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-docs-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-files-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-installation-beacon-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-jvm-services-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-kotlin-dsl-1.0.4.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-kotlin-dsl-provider-plugins-1.0.4.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-kotlin-dsl-tooling-builders-1.0.4.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-kotlin-dsl-tooling-models-1.0.4.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-launcher-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-logging-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-messaging-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-model-core-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-model-groovy-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-native-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-persistent-cache-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-process-services-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-resources-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-runtime-api-info-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-snapshots-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-tooling-api-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/gradle-wrapper-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-announce-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-antlr-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-build-cache-http-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-build-comparison-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-build-init-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-code-quality-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-composite-builds-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-dependency-management-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-diagnostics-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-ear-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-ide-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-ide-native-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-ide-play-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-ivy-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-jacoco-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-javascript-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-language-groovy-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-language-java-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-language-jvm-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-language-native-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-language-scala-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-maven-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-osgi-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-platform-base-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-platform-jvm-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-platform-native-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-platform-play-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-plugin-development-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-plugin-use-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-plugins-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-publish-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-reporting-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-resources-gcs-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-resources-http-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-resources-s3-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-resources-sftp-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-scala-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-signing-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-test-kit-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-testing-base-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-testing-junit-platform-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-testing-jvm-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-testing-native-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-tooling-api-builders-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-tooling-native-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-version-control-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/gradle-workers-5.0.jar" />
-                  <option value="$USER_HOME$/.gradle/permwrapper/dists/gradle-5.0-all/4mxuau4c77thx8zlvtz4xiez7/gradle-5.0/lib/plugins/ivy-2.3.0.jar" />
-                </list>
-              </option>
-            </ExternalProjectBuildClasspathPojo>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$" value="IMPORT" />
-      </map>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ModuleEditorState">
     <option name="LAST_EDITED_MODULE_NAME" />
@@ -700,7 +247,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -708,15 +255,10 @@
               <item name="Imperium" type="b2602c69:ProjectViewProjectNode" />
               <item name="Imperium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="Imperium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -729,11 +271,13 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547061614875" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="C:/Users/Public/frc2019/maven/com/ctre/phoenix/wpiapi-java/5.12.0/wpiapi-java-5.12.0-sources.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Users/Public/frc2019/maven/com/ctre/phoenix/wpiapi-java/5.12.0/wpiapi-java-5.12.0-sources.jar!/" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.44891304" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -747,12 +291,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Imperium Build">
+  <component name="RunManager" selected="Gradle.Imperium Update">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="BuildArtifacts" enabled="false" />
@@ -782,6 +326,7 @@
         </option>
         <option name="vmOptions" value="" />
       </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="Imperium Deploy" type="GradleRunConfiguration" factoryName="Gradle">
@@ -800,6 +345,7 @@
         </option>
         <option name="vmOptions" value="" />
       </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="Imperium Riolog" type="GradleRunConfiguration" factoryName="Gradle">
@@ -818,6 +364,7 @@
         </option>
         <option name="vmOptions" value="" />
       </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="Imperium Update" type="GradleRunConfiguration" factoryName="Gradle">
@@ -836,9 +383,11 @@
         </option>
         <option name="vmOptions" value="" />
       </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -849,12 +398,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
+    <configuration default="true" type="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
       <method v="2">
         <option name="BuildArtifacts" enabled="false" />
       </method>
@@ -880,6 +430,17 @@
       <workItem from="1546770975485" duration="474000" />
       <workItem from="1546772533004" duration="24000" />
       <workItem from="1546783772721" duration="275000" />
+      <workItem from="1546784192456" duration="161000" />
+      <workItem from="1546859632177" duration="153000" />
+      <workItem from="1546860460286" duration="1005000" />
+      <workItem from="1546970485963" duration="1384000" />
+      <workItem from="1547061584348" duration="44000" />
+      <workItem from="1547391931466" duration="132000" />
+      <workItem from="1547484007651" duration="86000" />
+      <workItem from="1547486075910" duration="215000" />
+      <workItem from="1547486349434" duration="12000" />
+      <workItem from="1547569763686" duration="180000" />
+      <workItem from="1547569969166" duration="284000" />
     </task>
     <task id="LOCAL-00001" summary="Added vendor dependencies">
       <created>1546771239278</created>
@@ -895,11 +456,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546771275808</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated CTRE">
+      <created>1546784328805</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1546784328805</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="871000" />
+    <option name="totallyTimeSpent" value="4527000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -913,16 +481,17 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30786687" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Build Variants" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3277311" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -932,6 +501,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32838285" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -942,18 +512,17 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="Gradle" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <MESSAGE value="Added vendor dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added vendor dependencies" />
+    <MESSAGE value="Updated CTRE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated CTRE" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -967,10 +536,34 @@
     <entry file="file://$PROJECT_DIR$/vendordeps/Phoenix-latest.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first.wpilibj/wpilibj-java/2019.1.1/db163458e3b3460c8b0aa2949e66f6fe87a66d4c/wpilibj-java-2019.1.1-sources.jar!/edu/wpi/first/wpilibj/smartdashboard/SendableChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="116" column="29" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Robot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        <state relative-caret-position="272">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/libs/Sendables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -991,7 +584,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Android-Gradle</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1018,7 +611,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.44891304" />
               </list>
             </option>
           </splitter-proportions>
@@ -1038,7 +631,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: com.ctre.frcbeta.phoenix:api-java:5.11.0</last-edited>
+          <last-edited>Gradle: com.ctre.frcbeta.phoenix:wpiapi-java:5.12.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
