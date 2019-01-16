@@ -15,6 +15,8 @@ public class Constants {
     public static final int kRightTalonPortSlave = 4;
 
     public static final int kCompressorPort = 0;
+
+    public static final int kSolenoidCount = 2;
     //
     /* Priority Settings
     5 = Default Priority

@@ -9,4 +9,6 @@ public abstract interface Joystick
   public abstract double getY();
   
   public abstract double getZ();
+
+  public abstract boolean[] getSolenoidStats();
 }

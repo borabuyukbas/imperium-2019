@@ -4,12 +4,14 @@ import com.ctre.phoenix.motorcontrol.ControlMode;
 import com.ctre.phoenix.motorcontrol.FeedbackDevice;
 import com.ctre.phoenix.motorcontrol.NeutralMode;
 import com.ctre.phoenix.motorcontrol.can.TalonSRX;
+import com.frc6874.libs.PneumaticHelper;
+import com.frc6874.libs.joystick.Joystick;
+import com.frc6874.libs.joystick.TekJoystick;
 import com.frc6874.libs.loops.Loop;
 import com.frc6874.libs.loops.Looper;
 import com.frc6874.libs.pathfollower.*;
 import com.frc6874.libs.reporters.ConsoleReporter;
 import com.frc6874.robot2019.Constants;
-import edu.wpi.first.wpilibj.Compressor;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 /**
@@ -20,9 +22,11 @@ public class Drive {
     private TalonSRX m_leftdrivemain;
     private TalonSRX m_rightdrivemain;
 
-    private Compressor m_compressor;
+    private PneumaticHelper m_pneumatichelper;
 
     private Path mCurrentPath = null;
+
+    private Joystick m_Joystick;
 
     private PathFollower mPathFollower;
     private States.DriveState mState = States.DriveState.NOTHING;
@@ -80,8 +84,8 @@ public class Drive {
         m_leftdrivemain.setInverted(false);
         m_rightdrivemain.setInverted(true);
 
-        m_compressor = new Compressor(Constants.kCompressorPort);
-
+        m_pneumatichelper = new PneumaticHelper();
+        m_Joystick = TekJoystick.getInstance();
     }
 
     public void drive(double powLeft, double powRight) {
@@ -125,16 +129,20 @@ public class Drive {
         public void onStart(double timestamp)
         {
             synchronized (Drive.this) {
-                m_compressor.setClosedLoopControl(true);
+                ConsoleReporter.report("Kompresor calismaya basladi!");
+                //m_compressor.start();
+                m_pneumatichelper.setCompressorState(true);
             }
         }
 
         public void onLoop(double timestamp, boolean isAuto)
         {
-            SmartDashboard.putNumber("Compressor Current", m_compressor.getCompressorCurrent());
             synchronized (Drive.this) {
                 switch (mState) {
                     case TELEOP:
+                        m_pneumatichelper.putToDashboard();
+
+                        m_pneumatichelper.controlSolenoid(m_Joystick.getSolenoidStats());
                         break;
                     case NOTHING:
                         break;
@@ -152,7 +160,9 @@ public class Drive {
         public void onStop(double timestamp)
         {
             synchronized (Drive.this) {
-                m_compressor.setClosedLoopControl(false);
+                ConsoleReporter.report("Kompresor durdu.");
+                m_pneumatichelper.setCompressorState(false);
+                //m_compressor.stop();
             }
         }
     };
