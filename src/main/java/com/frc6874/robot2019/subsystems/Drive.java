@@ -20,7 +20,9 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 public class Drive {
     private static Drive mInstance;
     private TalonSRX m_leftdrivemain;
+    private TalonSRX m_leftdriveslave;
     private TalonSRX m_rightdrivemain;
+    private TalonSRX m_rightdriveslave;
 
     private PneumaticHelper m_pneumatichelper;
 
@@ -44,6 +46,11 @@ public class Drive {
     private Drive() {
         m_leftdrivemain = new TalonSRX(Constants.kLeftTalonPortMaster);
         m_rightdrivemain = new TalonSRX(Constants.kRightTalonPortMaster);
+        m_leftdriveslave = new TalonSRX(Constants.kLeftTalonPortSlave);
+        m_rightdriveslave = new TalonSRX(Constants.kRightTalonPortSlave);
+
+        m_leftdriveslave.follow(m_leftdrivemain);
+        m_rightdriveslave.follow(m_rightdrivemain);
 
         m_leftdrivemain.setSensorPhase(true);
         m_rightdrivemain.setSensorPhase(true);
@@ -60,20 +67,6 @@ public class Drive {
 
         m_leftdrivemain.setInverted(false);
         m_rightdrivemain.setInverted(true);
-
-        m_leftdrivemain.configSelectedFeedbackSensor(FeedbackDevice.CTRE_MagEncoder_Relative, 0, 0);
-        m_rightdrivemain.configSelectedFeedbackSensor(FeedbackDevice.CTRE_MagEncoder_Relative, 0, 0);
-
-        m_leftdrivemain.config_kF(0, 0.165D, 0);
-        m_leftdrivemain.config_kP(0, 1.0D, 0);
-        m_leftdrivemain.config_kI(0, 0.005D, 0);
-        m_leftdrivemain.config_kD(0, 1.6D, 0);
-
-        m_rightdrivemain.config_kF(0, 0.165D, 0);
-        m_rightdrivemain.config_kP(0, 1.0D, 0);
-        m_rightdrivemain.config_kI(0, 0.005D, 0);
-        m_rightdrivemain.config_kD(0, 1.6D, 0);
-
 
         m_leftdrivemain.set(ControlMode.PercentOutput, 0.0D);
         m_rightdrivemain.set(ControlMode.PercentOutput, 0.0D);
@@ -99,6 +92,10 @@ public class Drive {
         turn = Deadband(turn);
 
         drive(forward + turn, forward - turn);
+    }
+
+    public void setMode(States.DriveState state){
+        mState = state;
     }
 
     public void zeroMotors()

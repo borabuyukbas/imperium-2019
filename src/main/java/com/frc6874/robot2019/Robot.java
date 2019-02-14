@@ -14,9 +14,10 @@ import com.frc6874.robot2019.actions.autonomous.modes.CrossTheLineMode;
 import com.frc6874.robot2019.actions.autonomous.modes.DoNothingMode;
 import com.frc6874.robot2019.actions.autonomous.modes.TestMode;
 import com.frc6874.robot2019.subsystems.Drive;
+import com.frc6874.robot2019.subsystems.States;
 import edu.wpi.cscore.UsbCamera;
 import edu.wpi.cscore.VideoMode;
-import edu.wpi.first.wpilibj.CameraServer;
+import edu.wpi.first.cameraserver.CameraServer;
 import edu.wpi.first.wpilibj.TimedRobot;
 
 /**
@@ -110,6 +111,7 @@ public class Robot extends TimedRobot {
     @Override
     public void teleopInit() {
         stopAuto();
+        mDrive.setMode(States.DriveState.TELEOP);
         mLooper.start(false);
     }
 
@@ -124,7 +126,6 @@ public class Robot extends TimedRobot {
             if (mAutoModeExecuter != null) {
                 mAutoModeExecuter.stop();
             }
-
             mAutoModeExecuter = null;
         } catch (Throwable t) {
             ConsoleReporter.report(t, MessageLevel.ERROR);

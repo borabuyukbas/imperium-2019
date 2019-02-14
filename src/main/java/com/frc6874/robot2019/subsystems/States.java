@@ -25,13 +25,13 @@ public class States {
        return encoderPosition;
      }
    }
-
-   public static enum ClawState {
+*/
+   public static enum GrabberWheelsState {
      NOTHING,
      ROLLING_WHEELS_IN,
      ROLLING_WHEELS_OUT;
      }
-   */
+
   public static enum DriveState {
     NOTHING,
     TELEOP, 

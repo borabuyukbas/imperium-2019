@@ -36,14 +36,14 @@ public class Sendables
     mHedefSecim.addOption("MOD1", hedef.MOD1);
     mHedefSecim.addOption("MOD2", hedef.MOD2);
     mHedefSecim.addOption("MOD3", hedef.MOD3);
-    edu.wpi.first.wpilibj.smartdashboard.SmartDashboard.putData("Hedef", mHedefSecim);
+    SmartDashboard.putData("Hedef", mHedefSecim);
 
     mPozisyonSecim = new SendableChooser();
     mPozisyonSecim.setDefaultOption("Belirsiz", baslangicPozisyonu.BELIRSIZ);
     mPozisyonSecim.addOption("Sol", baslangicPozisyonu.SOL);
     mPozisyonSecim.addOption("Orta", baslangicPozisyonu.ORTA);
     mPozisyonSecim.addOption("Sag", baslangicPozisyonu.SAG);
-    edu.wpi.first.wpilibj.smartdashboard.SmartDashboard.putData("Pozisyon", mPozisyonSecim);
+    SmartDashboard.putData("Pozisyon", mPozisyonSecim);
     
     com.frc6874.libs.reporters.ConsoleReporter.report("Sendables OK", com.frc6874.libs.reporters.MessageLevel.INFO);
   }

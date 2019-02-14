@@ -40,7 +40,7 @@ public class TekJoystick implements Joystick
   }
 
   public boolean[] getSolenoidStats() {
-    boolean[] stats = new boolean[Constants.kSolenoidCount - 1];
+    boolean[] stats = new boolean[Constants.kSolenoidCount];
       stats[0] = mJoystick.getRawButton(7);
       stats[1] = mJoystick.getRawButton(8);
     return stats;

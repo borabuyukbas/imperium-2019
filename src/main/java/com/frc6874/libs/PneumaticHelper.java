@@ -1,5 +1,6 @@
 package com.frc6874.libs;
 
+import com.frc6874.libs.reporters.ConsoleReporter;
 import com.frc6874.robot2019.Constants;
 import edu.wpi.first.wpilibj.Compressor;
 import edu.wpi.first.wpilibj.Solenoid;
@@ -15,10 +16,9 @@ public class PneumaticHelper {
 
         mSolenoid = new Solenoid[Constants.kSolenoidCount];
 
-        int i = 0;
-        for (Solenoid solenoid : mSolenoid) {
-            solenoid = new Solenoid(i);
-            i+=1;
+
+        for (int i = 0; i<Constants.kSolenoidCount; i++) {
+            mSolenoid[i] = new Solenoid(i);
         }
     }
 
@@ -27,15 +27,15 @@ public class PneumaticHelper {
     }
 
     public void controlSolenoid(boolean[] state){
-        int i = 0;
-        for (boolean durum:state) {
-            if(mSolenoid[i].get() != durum){
-                mSolenoid[i].set(!mSolenoid[i].get());
-            }
+        for (int i = 0; i<mSolenoid.length;i++) {
+            mSolenoid[i].set(state[i]);
+            SmartDashboard.putBoolean("Solenoid "+i, state[i]);
+            //ConsoleReporter.report("Solenoid:"+i+" , ayarlandı:"+state[i]);
         }
    }
 
     public void putToDashboard(){
+
         SmartDashboard.putBoolean("Compressor" , mCompressor.enabled());
         SmartDashboard.putNumber("Compressor Current" , mCompressor.getCompressorCurrent());
     }
