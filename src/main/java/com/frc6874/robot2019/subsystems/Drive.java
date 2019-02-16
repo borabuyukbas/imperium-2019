@@ -24,15 +24,9 @@ public class Drive {
     private TalonSRX m_rightdrivemain;
     private TalonSRX m_rightdriveslave;
 
-    private PneumaticHelper m_pneumatichelper;
-
-    private Path mCurrentPath = null;
-
     private Joystick m_Joystick;
 
-    private PathFollower mPathFollower;
     private States.DriveState mState = States.DriveState.NOTHING;
-    private PathFollowerRobotState mRobotState = PathFollowerRobotState.getInstance();
 
     public static Drive getInstance()
     {
@@ -77,7 +71,6 @@ public class Drive {
         m_leftdrivemain.setInverted(false);
         m_rightdrivemain.setInverted(true);
 
-        m_pneumatichelper = new PneumaticHelper();
         m_Joystick = TekJoystick.getInstance();
     }
 
@@ -127,8 +120,6 @@ public class Drive {
         {
             synchronized (Drive.this) {
                 ConsoleReporter.report("Kompresor calismaya basladi!");
-                //m_compressor.start();
-                m_pneumatichelper.setCompressorState(true);
             }
         }
 
@@ -137,17 +128,8 @@ public class Drive {
             synchronized (Drive.this) {
                 switch (mState) {
                     case TELEOP:
-                        m_pneumatichelper.putToDashboard();
-
-                        m_pneumatichelper.controlSolenoid(m_Joystick.getSolenoidStats());
                         break;
                     case NOTHING:
-                        break;
-                    case PATH_FOLLOWING:
-                        if (mPathFollower != null) {
-                            updatePathFollower(timestamp);
-                        }
-
                         break;
                     default:
                         ConsoleReporter.report("Beklenmedik Drive Durumu : " + mState);
@@ -158,7 +140,6 @@ public class Drive {
         {
             synchronized (Drive.this) {
                 ConsoleReporter.report("Kompresor durdu.");
-                m_pneumatichelper.setCompressorState(false);
                 //m_compressor.stop();
             }
         }
@@ -169,86 +150,4 @@ public class Drive {
         in.register(mLoop);
     }
 
-    public void updatePathFollower(double timestamp)
-    {
-        RigidTransform2d robot_pose = mRobotState.getLatestFieldToVehicle().getValue();
-        Twist2d command = mPathFollower.update(timestamp, robot_pose,
-                PathFollowerRobotState.getInstance().getDistanceDriven(), PathFollowerRobotState.getInstance().getPredictedVelocity().dx);
-
-        if (!mPathFollower.isFinished()) {
-            Kinematics.DriveVelocity setpoint = com.frc6874.libs.pathfollower.Kinematics.inverseKinematics(command);
-            updatePathVelocitySetpoint(setpoint.left, setpoint.right);
-
-        }
-        else
-        {
-
-            updatePathVelocitySetpoint(0.0D, 0.0D);
-            ConsoleReporter.report("Yol Tamam!");
-        }
-    }
-
-    private void updatePathVelocitySetpoint(double left_inches_per_sec, double right_inches_per_sec) {
-        double max_desired = Math.max(Math.abs(left_inches_per_sec), Math.abs(right_inches_per_sec));
-        double scale = max_desired > 144.0D ? 144.0D / max_desired : 1.0D;
-
-        SmartDashboard.putNumber("sol", Util.convertRPMToNativeUnits(inchesPerSecondToRpm(left_inches_per_sec * scale)));
-        SmartDashboard.putNumber("sag", Util.convertRPMToNativeUnits(inchesPerSecondToRpm(right_inches_per_sec * scale)));
-
-        m_leftdrivemain.set(ControlMode.Velocity, Util.convertRPMToNativeUnits(inchesPerSecondToRpm(left_inches_per_sec * scale)));
-        m_rightdrivemain.set(ControlMode.Velocity, Util.convertRPMToNativeUnits(inchesPerSecondToRpm(right_inches_per_sec * scale)));
-
-        SmartDashboard.putString("Istenen Hiz", left_inches_per_sec + "/" + right_inches_per_sec);
-        SmartDashboard.putString("Asil Hiz", getLeftVelocityInchesPerSec() + "/" + getRightVelocityInchesPerSec());
-    }
-
-    public double getLeftVelocityInchesPerSec() { return rpmToInchesPerSecond(Util.convertNativeUnitsToRPM(m_leftdrivemain.getSelectedSensorVelocity(0))); }
-
-    public double getRightVelocityInchesPerSec() { return rpmToInchesPerSecond(Util.convertNativeUnitsToRPM(m_rightdrivemain.getSelectedSensorVelocity(0))); }
-
-    public synchronized void setWantDrivePath(Path path, boolean reversed) {
-        if ((mCurrentPath != path) || (mState != States.DriveState.PATH_FOLLOWING)) {
-            mState = States.DriveState.PATH_FOLLOWING;
-            PathFollowerRobotState.getInstance().resetDistanceDriven();
-            mPathFollower = new PathFollower(path, reversed, new com.frc6874.libs.pathfollower.PathFollower.Parameters(new com.frc6874.libs.pathfollower.Lookahead(12.0D, 24.0D, 9.0D, 140.0D), 0.0D, 5.0D, 0.03D, 0.2D, 1.0D, 0.05D, 140.0D, 100.0D, 1.0D, 18.0D, 9.0D));
-            mCurrentPath = path;
-        } else {
-            ConsoleReporter.report("Yol ayarlamada sikinti cikti! ", com.frc6874.libs.reporters.MessageLevel.ERROR);
-        }
-    }
-
-    public synchronized boolean isDoneWithPath() {
-        if ((mState == States.DriveState.PATH_FOLLOWING) && (mPathFollower != null)) {
-            return mPathFollower.isFinished();
-        }
-        ConsoleReporter.report("Robot yol takip etmiyor!");
-        return true;
-    }
-
-    public synchronized boolean hasPassedMarker(String marker)
-    {
-        if (mPathFollower != null) {
-            return mPathFollower.hasPassedMarker(marker);
-        }
-        ConsoleReporter.report("Robot cizgi takip etmiyor.");
-        return false;
-    }
-
-
-    private static double rotationsToInches(double rotations)
-    {
-        return rotations * 15.707963267948966D;
-    }
-
-    private static double rpmToInchesPerSecond(double rpm) {
-        return rotationsToInches(rpm) / 60.0D;
-    }
-
-    private static double inchesToRotations(double inches) {
-        return inches / 15.707963267948966D;
-    }
-
-    private static double inchesPerSecondToRpm(double inches_per_second) {
-        return inchesToRotations(inches_per_second) * 60.0D;
-    }
 }
