@@ -9,13 +9,18 @@ public class Phoenix {
 
     public static NetworkTableInstance mInst;
 
+    public static NetworkTableEntry x;
+    public static NetworkTableEntry y;
+    public static NetworkTableEntry r;
+
     public Phoenix(){
         mInst = NetworkTableInstance.getDefault();
         NetworkTable vision = mInst.getTable("vision");
 
-        NetworkTableEntry x = vision.getEntry("X");
-        NetworkTableEntry y = vision.getEntry("Y");
-        NetworkTableEntry r = vision.getEntry("radius");
-
+        x = vision.getEntry("X");
+        y = vision.getEntry("Y");
+        r = vision.getEntry("radius");
     }
+
+
 }

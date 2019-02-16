@@ -10,5 +10,5 @@ public abstract interface Joystick
   
   public abstract double getZ();
 
-  public abstract boolean[] getSolenoidStats();
+  //public abstract boolean[] getSolenoidStats();
 }

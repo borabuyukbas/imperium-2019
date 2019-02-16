@@ -39,10 +39,10 @@ public class TekJoystick implements Joystick
     return mJoystick.getZ();
   }
 
-  public boolean[] getSolenoidStats() {
+  /*public boolean[] getSolenoidStats() {
     boolean[] stats = new boolean[Constants.kSolenoidCount];
       stats[0] = mJoystick.getRawButton(7);
       stats[1] = mJoystick.getRawButton(8);
     return stats;
-  }
+  }*/
 }
