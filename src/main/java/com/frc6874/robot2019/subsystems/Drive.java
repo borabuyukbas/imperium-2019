@@ -24,8 +24,6 @@ public class Drive {
     private TalonSRX m_rightdrivemain;
     private TalonSRX m_rightdriveslave;
 
-    private Joystick m_Joystick;
-
     private States.DriveState mState = States.DriveState.NOTHING;
 
     public static Drive getInstance()
@@ -71,8 +69,6 @@ public class Drive {
 
         m_leftdrivemain.setInverted(false);
         m_rightdrivemain.setInverted(true);
-
-        m_Joystick = TekJoystick.getInstance();
     }
 
     public void drive(double powLeft, double powRight) {
@@ -129,6 +125,7 @@ public class Drive {
             synchronized (Drive.this) {
                 switch (mState) {
                     case TELEOP:
+
                         break;
                     case NOTHING:
                         break;

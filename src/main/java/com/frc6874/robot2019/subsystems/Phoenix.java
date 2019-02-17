@@ -1,6 +1,7 @@
 package com.frc6874.robot2019.subsystems;
 
 import com.frc6874.libs.loops.Loop;
+import com.frc6874.libs.loops.Looper;
 import com.frc6874.libs.reporters.ConsoleReporter;
 import edu.wpi.first.networktables.NetworkTable;
 import edu.wpi.first.networktables.NetworkTableEntry;
@@ -88,6 +89,19 @@ public class Phoenix {
             }
         }
     };
+
+    public void registerLoops (Looper in) {
+        in.register(mLoop);
+    }
+
+    public void putToDashboard(){
+
+        SmartDashboard.putBoolean("Phoenix State" , mState != States.PhoenixState.DISABLED);
+        SmartDashboard.putNumber("X" , x.getDouble(0));
+        SmartDashboard.putNumber("Y" , y.getDouble(0));
+        SmartDashboard.putNumber("Radius" , r.getDouble(0));
+
+    }
 
 
 

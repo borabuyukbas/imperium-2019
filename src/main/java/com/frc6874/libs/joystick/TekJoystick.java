@@ -45,4 +45,20 @@ public class TekJoystick implements Joystick
       stats[1] = mJoystick.getRawButton(8);
     return stats;
   }*/
+
+  public boolean getElevatorRaise() {
+    return mJoystick.getRawButton(7);
+  }
+
+  public boolean getElevatorDown() {
+    return mJoystick.getRawButton(8);
+  }
+
+  public boolean getClawWheelsRollingIn() {
+    return mJoystick.getRawButton(2);
+  }
+
+  public boolean getClawWheelsRollingOut() {
+    return mJoystick.getRawButton(3);
+  }
 }

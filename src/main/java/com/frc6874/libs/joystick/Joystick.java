@@ -11,4 +11,12 @@ public abstract interface Joystick
   public abstract double getZ();
 
   //public abstract boolean[] getSolenoidStats();
+
+  public abstract boolean getElevatorRaise();
+
+  public abstract boolean getElevatorDown();
+
+  public abstract boolean getClawWheelsRollingIn();
+
+  public abstract boolean getClawWheelsRollingOut();
 }

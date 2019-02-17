@@ -9,6 +9,7 @@ import com.frc6874.libs.loops.Looper;
 import com.frc6874.libs.reporters.ConsoleReporter;
 import com.frc6874.libs.reporters.MessageLevel;
 import com.frc6874.robot2019.subsystems.Drive;
+import com.frc6874.robot2019.subsystems.Phoenix;
 import edu.wpi.first.wpilibj.TimedRobot;
 
 import static com.frc6874.robot2019.subsystems.States.DriveState.SANDSTORM;
@@ -25,6 +26,7 @@ public class Robot extends TimedRobot {
     private Looper mLooper;
     private ThreadRateControl threadRateControl = new ThreadRateControl();
     private Sendables mSendables = new Sendables();
+    private Phoenix mPhoenix;
 
 
     @Override
@@ -40,8 +42,11 @@ public class Robot extends TimedRobot {
 
         mDrive = Drive.getInstance();
 
+        mPhoenix = Phoenix.getInstance();
+
         threadRateControl.start(true);
 
+        mPhoenix.registerLoops(mLooper);
         mDrive.registerLoops(mLooper);
 
         ConsoleReporter.report("Robot basariyla yuklendi!", MessageLevel.INFO);
