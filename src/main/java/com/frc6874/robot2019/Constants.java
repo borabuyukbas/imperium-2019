@@ -9,16 +9,16 @@ public class Constants {
     /* Primary Settings */
     public static final int kJoystickPort = 0;
 
-    public static final int kLeftTalonPortMaster = 1;
-    public static final int kLeftTalonPortSlave = 2;
-    public static final int kRightTalonPortMaster = 3;
-    public static final int kRightTalonPortSlave = 4;
+    public static final int kLeftTalonPortMaster = 0;
+    public static final int kLeftTalonPortSlave = 1;
+    public static final int kRightTalonPortMaster = 2;
+    public static final int kRightTalonPortSlave = 3;
 
     public static final int kElevatorPort1 = 5;
     public static final int kElevatorPort2 = 6;
 
-    public static final int kGrabberMoverPort = 7;
-    public static final int kGrabberWheelsPort = 8;
+    public static final int kGrabberMoverPort = 4;
+    public static final int kGrabberWheelsPort = 1;
 
     public static final int kCompressorPort = 0;
 

@@ -38,6 +38,12 @@ public class States {
     SANDSTORM // SONG NAME?
 
    }
+
+   public static enum PhoenixState {
+     NONE,
+     FOLLOW_BALL,
+     DISABLED
+   }
   /*
   public static enum LEDState {
     NOTHING,

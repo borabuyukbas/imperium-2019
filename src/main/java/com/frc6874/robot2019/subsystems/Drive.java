@@ -46,6 +46,9 @@ public class Drive {
         m_leftdriveslave.follow(m_leftdrivemain);
         m_rightdriveslave.follow(m_rightdrivemain);
 
+        m_rightdriveslave.setInverted(true);
+        m_leftdriveslave.setInverted(true);
+
         m_leftdrivemain.setSensorPhase(true);
         m_rightdrivemain.setSensorPhase(true);
 
@@ -59,8 +62,6 @@ public class Drive {
         m_rightdrivemain.configNominalOutputForward(0.0D, 0);
         m_rightdrivemain.configNominalOutputReverse(0.0D, 0);
 
-        m_leftdrivemain.setInverted(false);
-        m_rightdrivemain.setInverted(true);
 
         m_leftdrivemain.set(ControlMode.PercentOutput, 0.0D);
         m_rightdrivemain.set(ControlMode.PercentOutput, 0.0D);
@@ -119,7 +120,7 @@ public class Drive {
         public void onStart(double timestamp)
         {
             synchronized (Drive.this) {
-                ConsoleReporter.report("Kompresor calismaya basladi!");
+
             }
         }
 
@@ -139,7 +140,6 @@ public class Drive {
         public void onStop(double timestamp)
         {
             synchronized (Drive.this) {
-                ConsoleReporter.report("Kompresor durdu.");
                 //m_compressor.stop();
             }
         }
