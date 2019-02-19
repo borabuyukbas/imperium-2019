@@ -19,4 +19,8 @@ public abstract interface Joystick
   public abstract boolean getClawWheelsRollingIn();
 
   public abstract boolean getClawWheelsRollingOut();
+
+  public abstract boolean getClawMoveUp();
+
+  public abstract boolean getClawMoveDown();
 }

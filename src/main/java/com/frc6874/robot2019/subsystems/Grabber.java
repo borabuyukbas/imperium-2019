@@ -11,9 +11,9 @@ public class Grabber {
     private TalonSRX mGrabber;
     private Spark mGrabberWheels;
 
-    private Grabber mInstance;
+    private static Grabber mInstance;
 
-    public Grabber getInstance() {
+    public static Grabber getInstance() {
         if (mInstance == null) {
             mInstance = new Grabber();
         }

@@ -47,11 +47,11 @@ public class TekJoystick implements Joystick
   }*/
 
   public boolean getElevatorRaise() {
-    return mJoystick.getRawButton(7);
+    return mJoystick.getRawButton(8);
   }
 
   public boolean getElevatorDown() {
-    return mJoystick.getRawButton(8);
+    return mJoystick.getRawButton(7);
   }
 
   public boolean getClawWheelsRollingIn() {
@@ -60,5 +60,13 @@ public class TekJoystick implements Joystick
 
   public boolean getClawWheelsRollingOut() {
     return mJoystick.getRawButton(3);
+  }
+
+  public boolean getClawMoveUp() {
+    return mJoystick.getPOV() == 180 || mJoystick.getPOV() == 225 || mJoystick.getPOV() == 135;
+  }
+
+  public boolean getClawMoveDown() {
+    return mJoystick.getPOV() == 0 || mJoystick.getPOV() == 315 || mJoystick.getPOV() == 45;
   }
 }

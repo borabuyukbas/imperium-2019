@@ -9,7 +9,12 @@ import com.frc6874.libs.loops.Looper;
 import com.frc6874.libs.reporters.ConsoleReporter;
 import com.frc6874.libs.reporters.MessageLevel;
 import com.frc6874.robot2019.subsystems.Drive;
+import com.frc6874.robot2019.subsystems.Elevator;
 import com.frc6874.robot2019.subsystems.Phoenix;
+import edu.wpi.cscore.MjpegServer;
+import edu.wpi.cscore.UsbCamera;
+import edu.wpi.cscore.VideoMode;
+import edu.wpi.first.cameraserver.CameraServer;
 import edu.wpi.first.wpilibj.TimedRobot;
 
 import static com.frc6874.robot2019.subsystems.States.DriveState.SANDSTORM;
@@ -35,6 +40,12 @@ public class Robot extends TimedRobot {
         ConsoleReporter.setReportingLevel(MessageLevel.INFO);
         ConsoleReporter.getInstance().start();
         ConsoleReporter.report("Konsol Bildirgeci Calisiyor!", MessageLevel.INFO);
+
+        UsbCamera camera = CameraServer.getInstance().startAutomaticCapture();
+        camera.setVideoMode(VideoMode.PixelFormat.kMJPEG, 320, 240, 15);
+        MjpegServer cameraServer = new MjpegServer("USB Camera 0", Constants.kCameraStreamPort);
+        cameraServer.setSource(camera);
+
 
         mJoystick = TekJoystick.getInstance();
 
@@ -107,6 +118,8 @@ public class Robot extends TimedRobot {
     public void testPeriodic() {
         ConsoleReporter.report("**** TEST MODU ****");
         ///////////// TEST EDILECEK MODUL /////////////
+        Elevator elevator = Elevator.getInstance();
+        elevator.set(-.5);
 
     }
 }

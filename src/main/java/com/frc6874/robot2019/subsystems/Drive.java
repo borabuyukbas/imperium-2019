@@ -24,6 +24,11 @@ public class Drive {
     private TalonSRX m_rightdrivemain;
     private TalonSRX m_rightdriveslave;
 
+    private Elevator m_Elevator;
+    private Grabber m_Grabber;
+
+    private Joystick m_Joystick;
+
     private States.DriveState mState = States.DriveState.NOTHING;
 
     public static Drive getInstance()
@@ -45,7 +50,7 @@ public class Drive {
         m_rightdriveslave.follow(m_rightdrivemain);
 
         m_rightdriveslave.setInverted(true);
-        m_leftdriveslave.setInverted(true);
+        m_leftdriveslave.setInverted(false);
 
         m_leftdrivemain.setSensorPhase(true);
         m_rightdrivemain.setSensorPhase(true);
@@ -69,6 +74,12 @@ public class Drive {
 
         m_leftdrivemain.setInverted(false);
         m_rightdrivemain.setInverted(true);
+
+        m_Elevator = Elevator.getInstance();
+        m_Grabber = Grabber.getInstance();
+
+
+        m_Joystick = TekJoystick.getInstance();
     }
 
     public void drive(double powLeft, double powRight) {
@@ -123,9 +134,29 @@ public class Drive {
         public void onLoop(double timestamp, boolean isAuto)
         {
             synchronized (Drive.this) {
+                SmartDashboard.putNumber("ileri" , m_Joystick.getY());
+                SmartDashboard.putNumber("etraf", m_Joystick.getZ());
+                SmartDashboard.putNumber("pow", m_Joystick.getPov());
                 switch (mState) {
                     case TELEOP:
-
+                        if(m_Joystick.getElevatorRaise()){
+                            m_Elevator.set(.6);
+                        }
+                        else if(m_Joystick.getElevatorDown()){
+                            m_Elevator.set(-.6);
+                        }
+                        else {
+                            m_Elevator.set(0);
+                        }
+                        if(m_Joystick.getClawMoveUp()){
+                            m_Grabber.setGrabber(1);
+                        }
+                        else if (m_Joystick.getClawMoveDown()){
+                            m_Grabber.setGrabber(-1);
+                        }
+                        else {
+                            m_Grabber.setGrabber(0);
+                        }
                         break;
                     case NOTHING:
                         break;

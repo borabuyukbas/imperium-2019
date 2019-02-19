@@ -22,7 +22,10 @@ public class Constants {
 
     public static final int kCompressorPort = 0;
 
-    public static final int kSolenoidCount = 2;
+    public static final int kSolenoidCount = 0;
+
+    public static final int kCameraStreamPort = 5810;
+
     //
     /* Priority Settings
     5 = Default Priority
