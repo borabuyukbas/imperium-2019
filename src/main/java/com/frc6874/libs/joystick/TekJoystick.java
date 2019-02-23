@@ -55,11 +55,11 @@ public class TekJoystick implements Joystick
   }
 
   public boolean getClawWheelsRollingIn() {
-    return mJoystick.getRawButton(2);
+    return mJoystick.getRawButton(3);
   }
 
   public boolean getClawWheelsRollingOut() {
-    return mJoystick.getRawButton(3);
+    return mJoystick.getRawButton(5);
   }
 
   public boolean getClawMoveUp() {

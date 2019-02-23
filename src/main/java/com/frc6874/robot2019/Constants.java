@@ -18,7 +18,7 @@ public class Constants {
     public static final int kElevatorPort2 = 6;
 
     public static final int kGrabberMoverPort = 4;
-    public static final int kGrabberWheelsPort = 1;
+    public static final int kGrabberWheelsPort = 0;
 
     public static final int kCompressorPort = 0;
 

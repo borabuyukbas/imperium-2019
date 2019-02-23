@@ -143,20 +143,32 @@ public class Drive {
                             m_Elevator.set(.6);
                         }
                         else if(m_Joystick.getElevatorDown()){
-                            m_Elevator.set(-.6);
+                            m_Elevator.set(-.2);
                         }
                         else {
-                            m_Elevator.set(0);
+                            m_Elevator.set(0.3);
                         }
+
                         if(m_Joystick.getClawMoveUp()){
-                            m_Grabber.setGrabber(1);
+                            m_Grabber.setGrabber(.8);
                         }
                         else if (m_Joystick.getClawMoveDown()){
-                            m_Grabber.setGrabber(-1);
+                            m_Grabber.setGrabber(-.4);
                         }
                         else {
-                            m_Grabber.setGrabber(0);
+                            m_Grabber.setGrabber(0.2);
                         }
+
+                        if(m_Joystick.getClawWheelsRollingIn()){
+                            m_Grabber.setWheels(States.GrabberWheelsState.ROLLING_WHEELS_IN);
+                        }
+                        else if(m_Joystick.getClawWheelsRollingOut()) {
+                            m_Grabber.setWheels(States.GrabberWheelsState.ROLLING_WHEELS_OUT);
+                        }
+                        else {
+                            m_Grabber.setWheels(States.GrabberWheelsState.NOTHING);
+                        }
+
                         break;
                     case NOTHING:
                         break;
