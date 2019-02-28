@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c678fd98-c735-4f9d-81a0-d1e6ae65a39c" name="Default Changelist" comment="#1.3.1 Changes for 2019">
+    <list default="true" id="c678fd98-c735-4f9d-81a0-d1e6ae65a39c" name="Default Changelist" comment="#2 Updated GradleRIO 2019.3.2">
       <change beforePath="$PROJECT_DIR$/.gradle/5.0/fileChanges/last-build.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.0/fileContent/fileContent.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.bin" beforeDir="false" />
@@ -163,8 +163,6 @@
       <change beforePath="$PROJECT_DIR$/build/tmp/jniExtractDir/wpiHal.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/jniExtractDir/wpiHaljni.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/jniExtractDir/wpiutil.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/frc6874/libs/joystick/TekJoystick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/frc6874/libs/joystick/TekJoystick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Drive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Drive.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -230,14 +228,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Drive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3588">
-              <caret line="170" selection-start-line="170" selection-end-line="170" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="46">
+              <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -257,17 +252,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
+            <state relative-caret-position="322">
               <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="23">
+              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -351,9 +346,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/frc6874/libs/joystick/Joystick.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Grabber.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/frc6874/libs/joystick/TekJoystick.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Drive.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Constants.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Drive.java" />
       </list>
     </option>
   </component>
@@ -418,7 +413,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550570330183" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Users/Public/frc2019/maven/com/ctre/phoenix/wpiapi-java/5.12.0/wpiapi-java-5.12.0-sources.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Imperium - Kopya/Imperium - Kopya.ipr" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.44891304" />
@@ -606,7 +601,9 @@
       <workItem from="1550556080389" duration="4491000" />
       <workItem from="1550581366601" duration="317000" />
       <workItem from="1550605814911" duration="2391000" />
-      <workItem from="1550921002511" duration="367000" />
+      <workItem from="1550921002511" duration="594000" />
+      <workItem from="1551013846053" duration="70000" />
+      <workItem from="1551343622103" duration="127000" />
     </task>
     <task id="LOCAL-00001" summary="Added vendor dependencies">
       <created>1546771239278</created>
@@ -713,11 +710,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550569232121</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="#2 Updated GradleRIO 2019.3.2">
+      <created>1550921582579</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1550921582579</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48111000" />
+    <option name="totallyTimeSpent" value="48535000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -732,7 +736,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1732224" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17776097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -742,7 +746,7 @@
       <window_info id="Build Variants" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3277311" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3277311" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -753,6 +757,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32941177" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32838285" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -783,7 +788,8 @@
     <MESSAGE value="#1.2.1 Changes for 2019" />
     <MESSAGE value="#1.3 Changes for 2019" />
     <MESSAGE value="#1.3.1 Changes for 2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="#1.3.1 Changes for 2019" />
+    <MESSAGE value="#2 Updated GradleRIO 2019.3.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="#2 Updated GradleRIO 2019.3.2" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -881,16 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Drive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3588">
-          <caret line="170" selection-start-line="170" selection-end-line="170" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Phoenix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1863">
@@ -898,6 +894,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -943,17 +946,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Constants.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        <state relative-caret-position="23">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Drive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="46">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
         </state>
       </provider>
     </entry>

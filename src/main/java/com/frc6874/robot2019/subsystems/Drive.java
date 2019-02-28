@@ -1,15 +1,12 @@
 package com.frc6874.robot2019.subsystems;
 
 import com.ctre.phoenix.motorcontrol.ControlMode;
-import com.ctre.phoenix.motorcontrol.FeedbackDevice;
 import com.ctre.phoenix.motorcontrol.NeutralMode;
 import com.ctre.phoenix.motorcontrol.can.TalonSRX;
-import com.frc6874.libs.PneumaticHelper;
 import com.frc6874.libs.joystick.Joystick;
 import com.frc6874.libs.joystick.TekJoystick;
 import com.frc6874.libs.loops.Loop;
 import com.frc6874.libs.loops.Looper;
-import com.frc6874.libs.pathfollower.*;
 import com.frc6874.libs.reporters.ConsoleReporter;
 import com.frc6874.robot2019.Constants;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
@@ -140,20 +137,20 @@ public class Drive {
                 switch (mState) {
                     case TELEOP:
                         if(m_Joystick.getElevatorRaise()){
-                            m_Elevator.set(.6);
+                            m_Elevator.set(-.8);
                         }
                         else if(m_Joystick.getElevatorDown()){
-                            m_Elevator.set(-.2);
+                            m_Elevator.set(.4);
                         }
                         else {
-                            m_Elevator.set(0.3);
+                            m_Elevator.set(0);
                         }
 
                         if(m_Joystick.getClawMoveUp()){
-                            m_Grabber.setGrabber(.8);
+                            m_Grabber.setGrabber(.6);
                         }
                         else if (m_Joystick.getClawMoveDown()){
-                            m_Grabber.setGrabber(-.4);
+                            m_Grabber.setGrabber(-.6);
                         }
                         else {
                             m_Grabber.setGrabber(0.2);
@@ -168,7 +165,6 @@ public class Drive {
                         else {
                             m_Grabber.setWheels(States.GrabberWheelsState.NOTHING);
                         }
-
                         break;
                     case NOTHING:
                         break;
