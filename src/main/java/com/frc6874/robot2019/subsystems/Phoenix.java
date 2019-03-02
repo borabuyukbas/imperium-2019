@@ -79,6 +79,7 @@ public class Phoenix {
                         state.setNumber(1);
                         break;
                 }
+                putToDashboard();
             }
         }
 

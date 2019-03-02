@@ -19,7 +19,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Imperium.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Imperium.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/AdvancedI2C.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/frc6874/libs/AutoBuilder$CKAutoStep.class" beforeDir="false" />
@@ -164,6 +163,7 @@
       <change beforePath="$PROJECT_DIR$/build/tmp/jniExtractDir/wpiHaljni.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/jniExtractDir/wpiutil.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Drive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Drive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Phoenix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Phoenix.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -228,20 +228,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Drive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+            <state relative-caret-position="327">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Phoenix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1863">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="465">
+              <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -252,7 +255,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
+            <state relative-caret-position="-506">
               <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
             </state>
           </provider>
@@ -270,7 +273,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Grabber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
+            <state relative-caret-position="-345">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -282,8 +285,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Robot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+            <state relative-caret-position="184">
+              <caret line="55" column="8" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -340,15 +343,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/frc6874/libs/PneumaticHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/frc6874/libs/Sendables.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/States.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Phoenix.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Elevator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Robot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/frc6874/libs/joystick/Joystick.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Grabber.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/frc6874/libs/joystick/TekJoystick.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Constants.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Robot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Drive.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Phoenix.java" />
       </list>
     </option>
   </component>
@@ -603,7 +606,8 @@
       <workItem from="1550605814911" duration="2391000" />
       <workItem from="1550921002511" duration="594000" />
       <workItem from="1551013846053" duration="70000" />
-      <workItem from="1551343622103" duration="127000" />
+      <workItem from="1551343622103" duration="186000" />
+      <workItem from="1551562269978" duration="156000" />
     </task>
     <task id="LOCAL-00001" summary="Added vendor dependencies">
       <created>1546771239278</created>
@@ -717,11 +721,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550921582579</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="#3 Updated GradleRIO 2019.4.1">
+      <created>1551343794169</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1551343794169</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48535000" />
+    <option name="totallyTimeSpent" value="48750000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -736,7 +747,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17776097" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18003026" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -789,7 +800,8 @@
     <MESSAGE value="#1.3 Changes for 2019" />
     <MESSAGE value="#1.3.1 Changes for 2019" />
     <MESSAGE value="#2 Updated GradleRIO 2019.3.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="#2 Updated GradleRIO 2019.3.2" />
+    <MESSAGE value="#3 Updated GradleRIO 2019.4.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="#3 Updated GradleRIO 2019.4.1" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -887,43 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Phoenix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1863">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Grabber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Robot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/libs/joystick/TekJoystick.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="897">
@@ -946,6 +921,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Grabber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -953,10 +938,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="55" column="8" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Drive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+        <state relative-caret-position="327">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/frc6874/robot2019/subsystems/Phoenix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
