@@ -138,23 +138,23 @@ public class Drive {
                 switch (mState) {
                     case TELEOP:
                         if(m_Joystick.getElevatorRaise()){
-                            m_Elevator.set(-.8);
+                            m_Elevator.set(.8);
                         }
                         else if(m_Joystick.getElevatorDown()){
-                            m_Elevator.set(.4);
+                            m_Elevator.set(-.4);
                         }
                         else {
                             m_Elevator.set(0);
                         }
 
                         if(m_Joystick.getClawMoveUp()){
-                            m_Grabber.setGrabber(.6);
+                            m_Grabber.setGrabber(-.9);
                         }
                         else if (m_Joystick.getClawMoveDown()){
-                            m_Grabber.setGrabber(-.6);
+                            m_Grabber.setGrabber(.9);
                         }
                         else {
-                            m_Grabber.setGrabber(0.2);
+                            m_Grabber.setGrabber(0.4);
                         }
 
                         if(m_Joystick.getClawWheelsRollingIn()){
